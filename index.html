@@ -27,10 +27,10 @@
         window.MyAndroidInterface.showName("Tolan.....");
     })
     btn3.addEventListener('click', (e)=>{
-        window.MyAndroidInterface.log({
+        window.MyAndroidInterface.log(JSON.stringify({
             key1: "Vlaue1",
             key2: "Value2"
-        });
+        }));
     })
 </script>
 </body>
